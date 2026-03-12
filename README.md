@@ -10,6 +10,7 @@
 - [Instalación](#instalación)
 - [Despliegue en AWS](#despliegue-en-aws)
 - [Tecnologías](#tecnologías)
+- [Iniciar](#iniciar)
 
 Aplicación web en PHP que permite consultar el tiempo atmosférico de cualquier ciudad del mundo usando la API de OpenWeatherMap. Incluye despliegue con Docker y base de datos MariaDB para registrar el historial de consultas.
 
@@ -127,5 +128,8 @@ La aplicación estará disponible en `http://localhost`. phpMyAdmin en `http://l
 - Chart.js
 - OpenWeatherMap API
 
+## Iniciar
+
+Para iniciar hay que conectarse a la instancia de AWS y levantar el docker
 
 
