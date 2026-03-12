@@ -132,4 +132,6 @@ La aplicación estará disponible en `http://localhost`. phpMyAdmin en `http://l
 
 Para iniciar hay que conectarse a la instancia de AWS y levantar el docker
 
+Para acceder a la web a través de la ip elástica es: [Enlace web](http://msolterod02.myftp.biz)
+Para acceder a la phpMyAdmin a través de la ip elástica es: [Enlace web](http://msolterod02.myftp.biz:8081)
 
