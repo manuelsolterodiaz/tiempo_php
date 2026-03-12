@@ -123,3 +123,5 @@ La aplicación estará disponible en `http://localhost`. phpMyAdmin en `http://l
 - Chart.js
 - OpenWeatherMap API
 
+
+
