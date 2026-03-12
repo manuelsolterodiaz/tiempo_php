@@ -92,7 +92,7 @@ Clonar el repositorio:
 
 ```bash
 git clone https://github.com/manuelsolterodiaz/tiempo_php.git
-cd tu-repo
+cd tiempo_php
 ```
 
 Editar `src/config/config.php` y poner la API key:
