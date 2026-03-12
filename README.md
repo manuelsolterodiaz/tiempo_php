@@ -54,7 +54,7 @@ Aplicación web en PHP que permite consultar el tiempo atmosférico de cualquier
         └── error.php
 ```
 
-La aplicación sigue el patrón MVC. El archivo `index.php` actúa como router y redirige a cada controlador según la página solicitada.
+La aplicación sigue el patrón MVC.
 
 ## Base de datos
 
@@ -70,26 +70,28 @@ CREATE TABLE consultas (
 ```
 
 El campo `tipo` puede ser `actual`, `horas` o `semana`.
+Para acceder a la base de datos, he usado phpMyAdmin, que se puede entrar para ver la informacion y la base de datos en el puerto 8081.
 
 ## APIs utilizadas
 
-Se usan tres endpoints de OpenWeatherMap:
+Se utilizan tres direcciones de la API de OpenWeatherMap
 
 - **Geocoding**: obtiene la latitud y longitud a partir del nombre de la ciudad.
 - **Current Weather**: devuelve el tiempo actual para unas coordenadas.
 - **Forecast**: devuelve la previsión en intervalos de 3 horas durante 5 días. Se usa tanto para la vista de horas como para la semanal.
 
-## Requisitos
+## Requisitos para su correcta creación
 
 - Docker y Docker Compose instalados.
 - Clave de API gratuita de OpenWeatherMap.
+- Instalar git
 
 ## Instalación
 
 Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
+git clone https://github.com/manuelsolterodiaz/tiempo_php.git
 cd tu-repo
 ```
 
@@ -102,7 +104,7 @@ $API_KEY = "TU_API_KEY";
 Levantar los contenedores:
 
 ```bash
-docker compose up -d --build
+docker compose up -d
 ```
 
 La aplicación estará disponible en `http://localhost`. phpMyAdmin en `http://localhost:8081`.
@@ -113,13 +115,15 @@ La aplicación estará disponible en `http://localhost`. phpMyAdmin en `http://l
 2. Abrir los puertos 80 y 22 en el Security Group.
 3. Instalar Docker en la instancia.
 4. Clonar el repositorio, configurar la API key y ejecutar `docker compose up -d --build`.
-5. Acceder desde la IP pública de la instancia.
+5. Acceder desde la IP elástica de la instancia o crear un subdominio y agregarle la ip elástica y poder acceder a través de un nombre de dominio.
 
-## Tecnologías
+## Tecnologías utilizadas
 
 - PHP 8.2 con Apache
 - MariaDB 10.5
+- phpMyAdmin
 - Docker y Docker Compose
+- Git
 - Chart.js
 - OpenWeatherMap API
 
