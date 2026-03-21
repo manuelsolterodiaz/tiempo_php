@@ -135,4 +135,4 @@ Para que la web funcione hay que arrancar el laboratorio de AWS y docker arranca
 Para acceder a la web a través de la ip elástica es: [Enlace web](http://msolterod02.myftp.biz)
 
 Para acceder a la phpMyAdmin a través de la ip elástica es: [Enlace phpMyAdmin](http://msolterod02.myftp.biz:8081)
-
+Para acceder a phpMyAdmin el usuario es root y la contraseña root que se encuentran en el fichero config.php
