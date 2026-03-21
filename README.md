@@ -130,7 +130,7 @@ La aplicación estará disponible en `http://localhost`. phpMyAdmin en `http://l
 
 ## Iniciar
 
-Solamente teniendo la instancia iniciada el docker arranca al iniciarse la instancia.
+Solamente teniendo la instancia iniciada, el contenedor(docker) arranca automáticamente iniciarse la instancia.
 
 Para acceder a la web a través de la ip elástica es: [Enlace web](http://msolterod02.myftp.biz)
 Para acceder a la phpMyAdmin a través de la ip elástica es: [Enlace phpMyAdmin](http://msolterod02.myftp.biz:8081)
