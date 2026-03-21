@@ -11,6 +11,7 @@ services:
     depends_on:
       db:
         condition: service_healthy
+    restart: always
 
   db:
     image: mariadb:10.5
@@ -26,6 +27,7 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+    restart: always
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
@@ -37,3 +39,4 @@ services:
     depends_on:
       db:
         condition: service_healthy
+    restart: always
