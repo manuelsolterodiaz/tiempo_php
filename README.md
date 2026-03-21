@@ -130,8 +130,7 @@ La aplicación estará disponible en `http://localhost`. phpMyAdmin en `http://l
 
 ## Iniciar
 
-Solamente teniendo la instancia iniciada, el contenedor(docker) arranca automáticamente iniciarse la instancia.
-
+Para que la web funcione hay que arrancar el laboratorio de AWS, e iniciar la instancia porque al arrancar el laboratorio la instancia se encuentra detenida, hay que hacer clic derecho en la instancia y hacer clic en iniciar y de esta manera docker arrancara cuando la instancia se inicie.
 Para acceder a la web a través de la ip elástica es: [Enlace web](http://msolterod02.myftp.biz)
 Para acceder a la phpMyAdmin a través de la ip elástica es: [Enlace phpMyAdmin](http://msolterod02.myftp.biz:8081)
 
